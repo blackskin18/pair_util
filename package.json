@@ -20,6 +20,7 @@
     "mocha": "^9.0.1"
   },
   "dependencies": {
+    "buffer": "^6.0.3",
     "ethers": "^5.4.0"
   },
   "directories": {

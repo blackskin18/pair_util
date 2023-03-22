@@ -13,10 +13,8 @@ describe('_getPoolAddressPancake2', () => {
         let wbnbAddress = '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c'
         let actualAddress = getPoolAddressByHash('0xca143ce32fe78f1f7019d7d551a6402fc5350c73', '0x00fb7f630766e6a796048ea87d01acd3068e8ff67d078148a3fa3f4a84f69bd5', cakeAddress, wbnbAddress)
 
-        console.log(actualAddress, '0x0eD7e52944161450477ee417DE9Cd3a859b14fD0')
-
         assert.strictEqual(
-            actualAddress.equals('0x0eD7e52944161450477ee417DE9Cd3a859b14fD0'),
+            actualAddress ===  '0x0eD7e52944161450477ee417DE9Cd3a859b14fD0',
             true
         )
     })
